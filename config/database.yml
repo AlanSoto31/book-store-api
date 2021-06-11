@@ -82,5 +82,4 @@ test:
 production:
   <<: *default
   database: book_store_api_production
-  username: book_store_api
-  password: <%= ENV['BOOK_STORE_API_DATABASE_PASSWORD'] %>
+
